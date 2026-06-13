@@ -1,0 +1,28 @@
+name: Daily Profile Update
+
+on:
+  schedule:
+    # Har kuni soat 6:00 UTC da ishga tushadi
+    - cron: "0 6 * * *"
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Update README stats
+        run: |
+          echo "🚀 Profile updated at $(date)" >> README.md
+          git config user.name "GitHub Actions"
+          git config user.email "actions@github.com"
+          git add README.md
+          git commit -m "Update: Daily profile stats" || echo "No changes to commit"
+          git push origin main || echo "Push failed"
