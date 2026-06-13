@@ -29,8 +29,8 @@ class DiyorbekPrimqulov extends FlutterDeveloper {
   final String location = "🇺🇿 Toshkent, O'zbekiston";
   
   final List<String> currentProjects = [
-    "📚 Book Store Management (Flutter + Firebase)",
-    "🏪 B2B SaaS Platform — Uzbekistan kitob do'konlari",
+    "🎥 YouTube Clone (Flutter + Firebase)",
+    "🛍️ Ishchibormi — O'zbekistan online bozori platformasi",
   ];
 
   final List<String> skills = [
@@ -85,8 +85,8 @@ class DiyorbekPrimqulov extends FlutterDeveloper {
 
 | Loyiha | Tavsif | Texnologiyalar |
 |:------:|:-------:|:--------------:|
-| 📚 **Book Store Management** | B2B SaaS — kitob do'konlari uchun POS va inventar tizimi | Flutter · Firebase · QR |
-| 🛒 **Varaq** | O'zbekistondagi online kitob bozori platformasi | Flutter · Dart · REST API |
+| 🎥 **YouTube Clone** | YouTube'ning Flutter ilovasi — videolar, pleylistlar, subscription | Flutter · Firebase · Video API |
+| 🛍️ **Ishchibormi** | O'zbekistondagi universal online bozori platformasi | Flutter · Dart · REST API |
 
 </div>
 
@@ -112,13 +112,13 @@ class DiyorbekPrimqulov extends FlutterDeveloper {
   <a href="mailto:diyorbek@email.com">
     <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" />
   </a>
-  <a href="https://t.me/Primqulov">
+  <a href="https://t.me/Diyorbek_Primqulov">
     <img src="https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white" />
   </a>
   <a href="https://linkedin.com/in/Primqulov">
     <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" />
   </a>
-  <a href="https://instagram.com/Primqulov">
+  <a href="https://instagram.com/Primqulov_diyorbek">
     <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" />
   </a>
 </p>
@@ -139,4 +139,3 @@ class DiyorbekPrimqulov extends FlutterDeveloper {
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:3A7BD5,50:00D2FF,100:6C63FF&height=120&section=footer" width="100%"/>
 
 </div>
-🚀 Profile updated at Sat Jun 13 17:18:24 UTC 2026
