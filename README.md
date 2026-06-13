@@ -109,7 +109,7 @@ class DiyorbekPrimqulov extends FlutterDeveloper {
 ## 🤝 Bog'laning
 
 <p align="center">
-  <a href="mailto:diyorbekprimqulov334@gmail.com?subject=Assalomu%20aleykum%20Diyorbek&body=Salom%20Diyorbek!%0A%0AMen%20siza%20bog'lanmoqchi%20edi.">
+  <a href="mailto:diyorbekprimqulov334@gmail.com?subject=Contact%20from%20GitHub&body=Hello%20Diyorbek%21%0A%0AI%20would%20like%20to%20contact%20you.">
     <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" />
   </a>
   <a href="https://t.me/Diyorbek_Primqulov">
@@ -139,4 +139,3 @@ class DiyorbekPrimqulov extends FlutterDeveloper {
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:3A7BD5,50:00D2FF,100:6C63FF&height=120&section=footer" width="100%"/>
 
 </div>
-🚀 Profile updated at Sat Jun 13 17:44:40 UTC 2026
