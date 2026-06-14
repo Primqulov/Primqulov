@@ -109,9 +109,6 @@ class DiyorbekPrimqulov extends FlutterDeveloper {
 ## 🤝 Bog'laning
 
 <p align="center">
-  <a href="mailto:diyorbekprimqulov334@gmail.com?subject=Contact%20from%20GitHub&body=Hello%20Diyorbek%21%0A%0AI%20would%20like%20to%20contact%20you.">
-    <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" />
-  </a>
   <a href="https://t.me/Diyorbek_Primqulov">
     <img src="https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white" />
   </a>
