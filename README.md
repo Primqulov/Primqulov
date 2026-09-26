@@ -1,246 +1,105 @@
 <div align="center">
 
-<!-- Animated Header -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:6C63FF,50:00D2FF,100:3A7BD5&height=200&section=header&text=Diyorbek%20Primqulov&fontSize=50&fontColor=ffffff&animation=twinkling&fontAlignY=38&desc=Flutter%20Developer%20%7C%20Mobile%20App%20Engineer&descAlignY=60&descSize=18" width="100%"/>
-
-<!-- Typing Animation -->
-<a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=28&pause=1000&color=6C63FF&center=true&vCenter=true&multiline=true&repeat=true&width=600&height=100&lines=🚀+Flutter+Developer;📱+Mobile+App+Engineer;💡+Building+Beautiful+UIs;🇺🇿+Based+in+Uzbekistan" alt="Typing SVG" />
-</a>
+<img src="assets/header.svg" width="100%" alt="Diyorbek Primqulov — Flutter Developer" />
 
 <br/>
 
-<!-- Badges -->
-<img src="https://img.shields.io/badge/Flutter-Expert-02569B?style=for-the-badge&logo=flutter&logoColor=white&labelColor=1a1a2e" />
-<img src="https://img.shields.io/badge/Dart-Proficient-0175C2?style=for-the-badge&logo=dart&logoColor=white&labelColor=1a1a2e" />
-<img src="https://img.shields.io/badge/Firebase-Backend-FFCA28?style=for-the-badge&logo=firebase&logoColor=black&labelColor=1a1a2e" />
+<a href="https://git.io/typing-svg">
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=20&duration=3200&pause=900&color=8B85FF&center=true&vCenter=true&width=620&height=40&lines=Flutter+Developer;Mobile+App+Engineer;Building+Beautiful+UIs;Based+in+Uzbekistan" alt="Typing SVG" />
+</a>
 
 <br/><br/>
 
----
+<a href="https://t.me/Diyorbek_Primqulov"><img src="https://img.shields.io/badge/Telegram-0B0F1A?style=for-the-badge&logo=telegram&logoColor=2CA5E0" alt="Telegram" /></a>
+<a href="https://linkedin.com/in/diyorbek_primqulov"><img src="https://img.shields.io/badge/LinkedIn-0B0F1A?style=for-the-badge&logo=linkedin&logoColor=0A66C2" alt="LinkedIn" /></a>
+<a href="https://instagram.com/Primqulov_diyorbek"><img src="https://img.shields.io/badge/Instagram-0B0F1A?style=for-the-badge&logo=instagram&logoColor=E4405F" alt="Instagram" /></a>
+<a href="https://github.com/Primqulov?tab=followers"><img src="https://img.shields.io/github/followers/Primqulov?style=for-the-badge&logo=github&logoColor=white&label=Kuzatuvchilar&labelColor=0B0F1A&color=6C63FF" alt="GitHub followers" /></a>
 
-<!-- About Me Section -->
-## 👨‍💻 Men haqimda
+<br/><br/>
+
+<img src="assets/divider.svg" width="100%" alt="" />
+
+## Men haqimda
+
+</div>
 
 ```dart
 class DiyorbekPrimqulov extends FlutterDeveloper {
   final String name     = "Diyorbek Primqulov";
-  final String role     = "Flutter Developer";
-  final String location = "🇺🇿 Toshkent, O'zbekiston";
-  
+  final String role     = "Flutter Developer · Mobile App Engineer";
+  final String location = "Toshkent, O'zbekiston 🇺🇿";
+
   final List<String> currentProjects = [
-    "🎥 YouTube Clone (Flutter + Firebase)",
-    "🛍️ Ishchibormi — O'zbekistan online bozori platformasi",
+    "YouTube Clone  — Flutter + Firebase",
+    "Ishchibormi    — O'zbekiston online bozori platformasi",
   ];
 
-  final List<String> skills = [
-    "Flutter & Dart",    "Firebase",
-    "REST API",          "Clean Architecture",
-    "BLoC / Provider",   "Git & GitHub",
-    "UI/UX Design",      "Agile / Scrum",
-  ];
+  final Map<String, List<String>> skills = {
+    "mobile"   : ["Flutter & Dart", "BLoC / Provider", "Clean Architecture"],
+    "backend"  : ["Firebase", "REST API"],
+    "workflow" : ["Git & GitHub", "UI/UX Design", "Agile / Scrum"],
+  };
 
   String get funFact => "Men code yozganda choyim sovib qoladi ☕";
 }
 ```
 
----
-
-<!-- Tech Stack -->
-## 🛠️ Texnologiyalar & Vositalar
-
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=flutter,dart,firebase,figma,git,github,vscode,androidstudio,postman,notion&theme=dark&perline=5" />
-</p>
-
----
-
-<!-- GitHub Stats -->
-## 📊 GitHub Statistikam
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Primqulov&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=6C63FF&icon_color=00D2FF&text_color=ffffff&rank_icon=github" width="48%" />
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Primqulov&theme=tokyonight&hide_border=true&background=0d1117&stroke=6C63FF&ring=00D2FF&fire=ff6b6b&currStreakLabel=6C63FF" width="48%" />
-</p>
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Primqulov&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=6C63FF&text_color=ffffff&langs_count=6" width="40%" />
-</p>
-
----
-
-<!-- Activity Graph -->
-## 🔥 Faollik grafigi
-
-<p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Primqulov&bg_color=0d1117&color=6C63FF&line=00D2FF&point=ffffff&area=true&hide_border=true" width="100%"/>
-</p>
-
----
-
-<!-- Projects -->
-## 🚀 Asosiy loyihalarim
-
 <div align="center">
 
-| Loyiha | Tavsif | Texnologiyalar |
-|:------:|:-------:|:--------------:|
-| 🎥 **YouTube Clone** | YouTube'ning Flutter ilovasi — videolar, pleylistlar, subscription | Flutter · Firebase · Video API |
-| 🛍️ **Ishchibormi** | O'zbekistondagi universal online bozori platformasi | Flutter · Dart · REST API |
+<img src="assets/divider.svg" width="100%" alt="" />
+
+## Ko'nikmalar
+
+<img src="assets/skills.svg" width="100%" alt="Mobile: Flutter & Dart, BLoC / Provider, Clean Architecture · Backend: Firebase, REST API, Postman · Workflow: Git & GitHub, UI/UX Design, Agile / Scrum" />
+
+<br/><br/>
+
+<sub><b>VOSITALAR</b></sub>
+
+<br/><br/>
+
+<img src="https://skillicons.dev/icons?i=flutter,dart,firebase,figma,git,github,vscode,androidstudio,postman,notion&theme=dark" alt="Flutter, Dart, Firebase, Figma, Git, GitHub, VS Code, Android Studio, Postman, Notion" />
+
+<br/><br/>
+
+<img src="assets/divider.svg" width="100%" alt="" />
+
+## Asosiy loyihalar
+
+<a href="https://github.com/Primqulov?tab=repositories"><img src="assets/project-youtube.svg" width="49%" alt="YouTube Clone — YouTube'ning Flutter ilovasi: videolar, pleylistlar va subscription. Flutter · Firebase · Video API" /></a>
+<a href="https://github.com/Primqulov?tab=repositories"><img src="assets/project-ishchibormi.svg" width="49%" alt="Ishchibormi — O'zbekistondagi universal online bozori platformasi. Flutter · Dart · REST API" /></a>
+
+<br/><br/>
+
+<img src="assets/divider.svg" width="100%" alt="" />
+
+## GitHub statistikasi
+
+<img src="https://github-readme-stats.vercel.app/api?username=Primqulov&show_icons=true&include_all_commits=true&rank_icon=github&hide_border=false&border_radius=16&bg_color=0B0F1A&border_color=1F2640&title_color=8B85FF&icon_color=00D2FF&text_color=C9D1F5&ring_color=6C63FF&custom_title=GitHub%20Statistikam" height="180" alt="GitHub stats" />
+<img src="https://streak-stats.demolab.com/?user=Primqulov&border_radius=16&background=0B0F1A&border=1F2640&stroke=1F2640&ring=6C63FF&fire=00D2FF&currStreakNum=FFFFFF&sideNums=FFFFFF&currStreakLabel=8B85FF&sideLabels=A9B1D6&dates=6B7394" height="180" alt="GitHub streak" />
+
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Primqulov&layout=compact&langs_count=6&hide_border=false&border_radius=16&bg_color=0B0F1A&border_color=1F2640&title_color=8B85FF&text_color=C9D1F5&card_width=420&custom_title=Ko'p%20ishlatiladigan%20tillar" height="160" alt="Top languages" />
+
+<br/><br/>
+
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=Primqulov&bg_color=0B0F1A&color=A9B1D6&title_color=8B85FF&line=6C63FF&point=00D2FF&area=true&area_color=6C63FF&hide_border=false&radius=16&custom_title=Faollik%20grafigi" width="100%" alt="Activity graph" />
+
+<br/><br/>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Primqulov/Primqulov/output/github-contribution-grid-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Primqulov/Primqulov/output/github-contribution-grid-snake.svg" />
+  <img alt="GitHub contribution snake" src="https://raw.githubusercontent.com/Primqulov/Primqulov/output/github-contribution-grid-snake-dark.svg" width="100%" />
+</picture>
+
+<br/><br/>
+
+<img src="assets/footer.svg" width="100%" alt="“Men code yozganda choyim sovib qoladi.” — Diyorbek Primqulov" />
+
+<br/><br/>
+
+<img src="https://komarev.com/ghpvc/?username=Primqulov&color=6C63FF&style=flat-square&label=Profil+ko'rishlar" alt="Profile views" />
+
+<sub>Oxirgi yangilanish: <!--UPDATED-->26.09.2026<!--/UPDATED--></sub>
 
 </div>
-
----
-
-<!-- Snake Animation — generated by GitHub Actions workflow -->
-## 🐍 Mening GitHub faolligim
-
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Primqulov/Primqulov/output/github-contribution-grid-snake-dark.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Primqulov/Primqulov/output/github-contribution-grid-snake.svg" />
-    <img alt="github-snake" src="https://raw.githubusercontent.com/Primqulov/Primqulov/output/github-contribution-grid-snake-dark.svg" />
-  </picture>
-</p>
-
----
-
-<!-- Connect -->
-## 🤝 Bog'laning
-
-<p align="center">
-  <a href="https://t.me/Diyorbek_Primqulov">
-    <img src="https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white" />
-  </a>
-  <a href="https://linkedin.com/in/diyorbek_primqulov">
-    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" />
-  </a>
-  <a href="https://instagram.com/Primqulov_diyorbek">
-    <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" />
-  </a>
-</p>
-
----
-
-<!-- Footer Quote -->
-<p align="center">
-  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight&border=true" />
-</p>
-
-<!-- Profile Views -->
-<p align="center">
-  <img src="https://komarev.com/ghpvc/?username=Primqulov&color=6C63FF&style=for-the-badge&label=Profil+ko'rishlar" />
-</p>
-
-<!-- Footer Wave -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:3A7BD5,50:00D2FF,100:6C63FF&height=120&section=footer" width="100%"/>
-
-</div>
-🚀 Profile updated at Sat Jun 13 17:47:12 UTC 2026
-🚀 Profile updated at Sun Jun 14 09:30:43 UTC 2026
-🚀 Profile updated at Sun Jun 14 09:53:54 UTC 2026
-🚀 Profile updated at Sun Jun 14 09:57:19 UTC 2026
-🚀 Profile updated at Mon Jun 15 12:09:09 UTC 2026
-🚀 Profile updated at Tue Jun 16 11:07:30 UTC 2026
-🚀 Profile updated at Wed Jun 17 10:51:53 UTC 2026
-🚀 Profile updated at Thu Jun 18 10:18:17 UTC 2026
-🚀 Profile updated at Fri Jun 19 10:23:17 UTC 2026
-🚀 Profile updated at Sat Jun 20 08:52:44 UTC 2026
-🚀 Profile updated at Sun Jun 21 09:46:44 UTC 2026
-🚀 Profile updated at Mon Jun 22 11:49:47 UTC 2026
-🚀 Profile updated at Tue Jun 23 09:35:04 UTC 2026
-🚀 Profile updated at Wed Jun 24 09:25:07 UTC 2026
-🚀 Profile updated at Thu Jun 25 08:58:26 UTC 2026
-🚀 Profile updated at Fri Jun 26 09:21:23 UTC 2026
-🚀 Profile updated at Sat Jun 27 08:33:27 UTC 2026
-🚀 Profile updated at Sun Jun 28 08:48:38 UTC 2026
-🚀 Profile updated at Mon Jun 29 10:53:46 UTC 2026
-🚀 Profile updated at Tue Jun 30 09:30:49 UTC 2026
-🚀 Profile updated at Wed Jul  1 09:41:39 UTC 2026
-🚀 Profile updated at Thu Jul  2 08:52:41 UTC 2026
-🚀 Profile updated at Fri Jul  3 08:59:03 UTC 2026
-🚀 Profile updated at Sat Jul  4 08:33:38 UTC 2026
-🚀 Profile updated at Sun Jul  5 08:49:39 UTC 2026
-🚀 Profile updated at Mon Jul  6 10:15:09 UTC 2026
-🚀 Profile updated at Tue Jul  7 09:37:08 UTC 2026
-🚀 Profile updated at Wed Jul  8 08:24:18 UTC 2026
-🚀 Profile updated at Thu Jul  9 09:40:19 UTC 2026
-🚀 Profile updated at Fri Jul 10 09:31:00 UTC 2026
-🚀 Profile updated at Sat Jul 11 07:51:38 UTC 2026
-🚀 Profile updated at Sun Jul 12 08:13:20 UTC 2026
-🚀 Profile updated at Mon Jul 13 09:21:35 UTC 2026
-🚀 Profile updated at Tue Jul 14 07:59:43 UTC 2026
-🚀 Profile updated at Wed Jul 15 08:04:58 UTC 2026
-🚀 Profile updated at Thu Jul 16 08:08:42 UTC 2026
-🚀 Profile updated at Fri Jul 17 08:06:12 UTC 2026
-🚀 Profile updated at Sat Jul 18 07:45:31 UTC 2026
-🚀 Profile updated at Sun Jul 19 08:12:34 UTC 2026
-🚀 Profile updated at Mon Jul 20 08:53:39 UTC 2026
-🚀 Profile updated at Tue Jul 21 08:24:09 UTC 2026
-🚀 Profile updated at Wed Jul 22 08:24:38 UTC 2026
-🚀 Profile updated at Thu Jul 23 08:25:29 UTC 2026
-🚀 Profile updated at Fri Jul 24 08:24:01 UTC 2026
-🚀 Profile updated at Sat Jul 25 08:02:47 UTC 2026
-🚀 Profile updated at Sun Jul 26 08:23:00 UTC 2026
-🚀 Profile updated at Mon Jul 27 09:46:55 UTC 2026
-🚀 Profile updated at Tue Jul 28 08:29:41 UTC 2026
-🚀 Profile updated at Wed Jul 29 08:36:13 UTC 2026
-🚀 Profile updated at Thu Jul 30 08:21:55 UTC 2026
-🚀 Profile updated at Fri Jul 31 08:45:50 UTC 2026
-🚀 Profile updated at Sat Aug  1 08:16:05 UTC 2026
-🚀 Profile updated at Sun Aug  2 08:20:38 UTC 2026
-🚀 Profile updated at Mon Aug  3 09:38:58 UTC 2026
-🚀 Profile updated at Tue Aug  4 08:32:19 UTC 2026
-🚀 Profile updated at Wed Aug  5 08:31:41 UTC 2026
-🚀 Profile updated at Thu Aug  6 08:31:44 UTC 2026
-🚀 Profile updated at Fri Aug  7 07:11:20 UTC 2026
-🚀 Profile updated at Sat Aug  8 06:47:02 UTC 2026
-🚀 Profile updated at Sun Aug  9 06:52:10 UTC 2026
-🚀 Profile updated at Mon Aug 10 07:27:08 UTC 2026
-🚀 Profile updated at Tue Aug 11 07:02:28 UTC 2026
-🚀 Profile updated at Wed Aug 12 07:20:32 UTC 2026
-🚀 Profile updated at Thu Aug 13 07:22:36 UTC 2026
-🚀 Profile updated at Fri Aug 14 07:20:11 UTC 2026
-🚀 Profile updated at Sat Aug 15 06:33:28 UTC 2026
-🚀 Profile updated at Sun Aug 16 06:34:53 UTC 2026
-🚀 Profile updated at Mon Aug 17 06:49:47 UTC 2026
-🚀 Profile updated at Tue Aug 18 06:38:14 UTC 2026
-🚀 Profile updated at Wed Aug 19 06:38:51 UTC 2026
-🚀 Profile updated at Thu Aug 20 06:39:59 UTC 2026
-🚀 Profile updated at Fri Aug 21 06:40:44 UTC 2026
-🚀 Profile updated at Sat Aug 22 06:34:51 UTC 2026
-🚀 Profile updated at Sun Aug 23 06:36:17 UTC 2026
-🚀 Profile updated at Mon Aug 24 06:52:34 UTC 2026
-🚀 Profile updated at Tue Aug 25 06:41:22 UTC 2026
-🚀 Profile updated at Wed Aug 26 06:43:01 UTC 2026
-🚀 Profile updated at Thu Aug 27 17:18:41 UTC 2026
-🚀 Profile updated at Fri Aug 28 18:11:07 UTC 2026
-🚀 Profile updated at Sat Aug 29 12:16:05 UTC 2026
-🚀 Profile updated at Sun Aug 30 11:14:32 UTC 2026
-🚀 Profile updated at Mon Aug 31 12:40:33 UTC 2026
-🚀 Profile updated at Tue Sep  1 11:04:52 UTC 2026
-🚀 Profile updated at Wed Sep  2 10:37:12 UTC 2026
-🚀 Profile updated at Thu Sep  3 10:39:23 UTC 2026
-🚀 Profile updated at Fri Sep  4 10:34:38 UTC 2026
-🚀 Profile updated at Sat Sep  5 09:56:31 UTC 2026
-🚀 Profile updated at Sun Sep  6 10:14:49 UTC 2026
-🚀 Profile updated at Mon Sep  7 11:34:00 UTC 2026
-🚀 Profile updated at Tue Sep  8 10:33:34 UTC 2026
-🚀 Profile updated at Wed Sep  9 10:44:48 UTC 2026
-🚀 Profile updated at Thu Sep 10 10:35:52 UTC 2026
-🚀 Profile updated at Fri Sep 11 10:35:39 UTC 2026
-🚀 Profile updated at Sat Sep 12 10:04:28 UTC 2026
-🚀 Profile updated at Sun Sep 13 11:04:33 UTC 2026
-🚀 Profile updated at Mon Sep 14 11:46:35 UTC 2026
-🚀 Profile updated at Tue Sep 15 11:03:17 UTC 2026
-🚀 Profile updated at Wed Sep 16 10:50:03 UTC 2026
-🚀 Profile updated at Thu Sep 17 10:56:59 UTC 2026
-🚀 Profile updated at Fri Sep 18 10:33:37 UTC 2026
-🚀 Profile updated at Sat Sep 19 10:17:37 UTC 2026
-🚀 Profile updated at Sun Sep 20 10:36:40 UTC 2026
-🚀 Profile updated at Mon Sep 21 11:58:43 UTC 2026
-🚀 Profile updated at Tue Sep 22 10:57:32 UTC 2026
-🚀 Profile updated at Wed Sep 23 10:45:34 UTC 2026
-🚀 Profile updated at Thu Sep 24 11:06:04 UTC 2026
-🚀 Profile updated at Fri Sep 25 11:07:41 UTC 2026
-🚀 Profile updated at Sat Sep 26 10:48:13 UTC 2026

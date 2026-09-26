@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="250" viewBox="0 0 1200 250" fill="none">
+  <style>
+    text { font-family: 'Segoe UI', Inter, -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif; }
+    .h { font-size: 19px; font-weight: 700; fill: #FFFFFF; }
+    .k { font-size: 11px; font-weight: 700; letter-spacing: 1.6px; fill: #6B7394; }
+    .i { font-size: 16px; font-weight: 500; fill: #C9D1F5; }
+    .c1 { animation: up .8s cubic-bezier(.2,.8,.2,1) .1s backwards; }
+    .c2 { animation: up .8s cubic-bezier(.2,.8,.2,1) .25s backwards; }
+    .c3 { animation: up .8s cubic-bezier(.2,.8,.2,1) .4s backwards; }
+    @keyframes up { from { opacity: 0; transform: translateY(12px); } to { opacity: 1; transform: none; } }
+  </style>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="226" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0E1428"/>
+      <stop offset="1" stop-color="#090D1A"/>
+    </linearGradient>
+    <linearGradient id="a" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#8B85FF"/><stop offset="1" stop-color="#6C63FF"/></linearGradient>
+    <linearGradient id="b" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#00D2FF"/><stop offset="1" stop-color="#3A7BD5"/></linearGradient>
+    <linearGradient id="d" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#6C63FF"/><stop offset="1" stop-color="#00D2FF"/></linearGradient>
+  </defs>
+
+  <!-- Mobile -->
+  <g class="c1">
+    <rect x="12.5" y="12.5" width="375" height="225" rx="20" fill="url(#bg)" stroke="#FFFFFF" stroke-opacity=".08"/>
+    <rect x="36.5" y="12" width="327" height="3" rx="1.5" fill="url(#a)"/>
+    <rect x="36" y="40" width="44" height="44" rx="13" fill="url(#a)"/>
+    <rect x="50" y="50" width="16" height="24" rx="4" stroke="#FFFFFF" stroke-width="2.2"/>
+    <circle cx="58" cy="69.5" r="1.4" fill="#FFFFFF"/>
+    <text x="96" y="58" class="k">01 · MOBILE</text>
+    <text x="96" y="80" class="h">Ilova yaratish</text>
+    <circle cx="42" cy="129" r="3.5" fill="#8B85FF"/><text x="56" y="135" class="i">Flutter &amp; Dart</text>
+    <circle cx="42" cy="165" r="3.5" fill="#8B85FF"/><text x="56" y="171" class="i">BLoC / Provider</text>
+    <circle cx="42" cy="201" r="3.5" fill="#8B85FF"/><text x="56" y="207" class="i">Clean Architecture</text>
+  </g>
+
+  <!-- Backend -->
+  <g class="c2">
+    <rect x="412.5" y="12.5" width="375" height="225" rx="20" fill="url(#bg)" stroke="#FFFFFF" stroke-opacity=".08"/>
+    <rect x="436.5" y="12" width="327" height="3" rx="1.5" fill="url(#b)"/>
+    <rect x="436" y="40" width="44" height="44" rx="13" fill="url(#b)"/>
+    <ellipse cx="458" cy="53" rx="9" ry="3.5" stroke="#FFFFFF" stroke-width="2.2"/>
+    <path d="M449 53v18c0 1.9 4 3.5 9 3.5s9-1.6 9-3.5V53M449 62c0 1.9 4 3.5 9 3.5s9-1.6 9-3.5" stroke="#FFFFFF" stroke-width="2.2"/>
+    <text x="496" y="58" class="k">02 · BACKEND</text>
+    <text x="496" y="80" class="h">Ma'lumot va API</text>
+    <circle cx="442" cy="129" r="3.5" fill="#00D2FF"/><text x="456" y="135" class="i">Firebase</text>
+    <circle cx="442" cy="165" r="3.5" fill="#00D2FF"/><text x="456" y="171" class="i">REST API</text>
+    <circle cx="442" cy="201" r="3.5" fill="#00D2FF"/><text x="456" y="207" class="i">Postman</text>
+  </g>
+
+  <!-- Workflow -->
+  <g class="c3">
+    <rect x="812.5" y="12.5" width="375" height="225" rx="20" fill="url(#bg)" stroke="#FFFFFF" stroke-opacity=".08"/>
+    <rect x="836.5" y="12" width="327" height="3" rx="1.5" fill="url(#d)"/>
+    <rect x="836" y="40" width="44" height="44" rx="13" fill="url(#d)"/>
+    <circle cx="851" cy="53" r="3.2" stroke="#FFFFFF" stroke-width="2.2"/>
+    <circle cx="851" cy="71" r="3.2" stroke="#FFFFFF" stroke-width="2.2"/>
+    <circle cx="866" cy="58" r="3.2" stroke="#FFFFFF" stroke-width="2.2"/>
+    <path d="M851 56.2v11.6M866 61.2c0 5-6 5-11.6 7.6" stroke="#FFFFFF" stroke-width="2.2" stroke-linecap="round"/>
+    <text x="896" y="58" class="k">03 · WORKFLOW</text>
+    <text x="896" y="80" class="h">Dizayn va jamoa</text>
+    <circle cx="842" cy="129" r="3.5" fill="#6C63FF"/><text x="856" y="135" class="i">Git &amp; GitHub</text>
+    <circle cx="842" cy="165" r="3.5" fill="#6C63FF"/><text x="856" y="171" class="i">UI/UX Design · Figma</text>
+    <circle cx="842" cy="201" r="3.5" fill="#6C63FF"/><text x="856" y="207" class="i">Agile / Scrum</text>
+  </g>
+</svg>

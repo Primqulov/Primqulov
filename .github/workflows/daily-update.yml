@@ -5,9 +5,9 @@ on:
     # Har kuni soat 6:00 UTC da ishga tushadi
     - cron: "0 6 * * *"
   workflow_dispatch:
-  push:
-    branches:
-      - main
+
+permissions:
+  contents: write
 
 jobs:
   update:
@@ -18,9 +18,11 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Update README stats
+      - name: Update README timestamp
         run: |
-          echo "🚀 Profile updated at $(date)" >> README.md
+          # README oxiriga qator qo'shmaydi — faqat <!--UPDATED--> belgisi ichidagi sanani almashtiradi
+          STAMP="$(TZ=Asia/Tashkent date '+%d.%m.%Y')"
+          sed -i "s|<!--UPDATED-->.*<!--/UPDATED-->|<!--UPDATED-->${STAMP}<!--/UPDATED-->|" README.md
           git config user.name "GitHub Actions"
           git config user.email "actions@github.com"
           git add README.md

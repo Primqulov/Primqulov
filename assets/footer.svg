@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="240" viewBox="0 0 1200 240" fill="none">
+  <style>
+    text { font-family: 'Segoe UI', Inter, -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif; }
+    .q { font-size: 24px; font-weight: 600; fill: #FFFFFF; font-style: italic; }
+    .a { font-size: 13px; font-weight: 700; letter-spacing: 2.4px; fill: #8B85FF; }
+    .w1 { animation: drift 10s ease-in-out infinite; }
+    .w2 { animation: drift 14s ease-in-out -5s infinite reverse; }
+    @keyframes drift { 0%, 100% { transform: translateX(0); } 50% { transform: translateX(-120px); } }
+  </style>
+  <defs>
+    <linearGradient id="w1" x1="0" y1="0" x2="1400" y2="0" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#6C63FF" stop-opacity=".5"/>
+      <stop offset=".5" stop-color="#00D2FF" stop-opacity=".35"/>
+      <stop offset="1" stop-color="#3A7BD5" stop-opacity=".5"/>
+    </linearGradient>
+    <linearGradient id="w2" x1="0" y1="0" x2="1400" y2="0" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#3A7BD5" stop-opacity=".8"/>
+      <stop offset=".5" stop-color="#6C63FF" stop-opacity=".85"/>
+      <stop offset="1" stop-color="#00D2FF" stop-opacity=".75"/>
+    </linearGradient>
+    <clipPath id="c"><rect width="1200" height="240" rx="28"/></clipPath>
+  </defs>
+  <g clip-path="url(#c)">
+    <rect width="1200" height="240" fill="#0A0F1F"/>
+    <path class="w1" d="M0 170C150 130 300 130 450 165S750 205 900 165 1200 125 1400 160V240H0Z" fill="url(#w1)"/>
+    <path class="w2" d="M0 200C160 175 320 175 480 198S800 230 960 200 1240 170 1400 196V240H0Z" fill="url(#w2)"/>
+  </g>
+  <rect x=".5" y=".5" width="1199" height="239" rx="27.5" stroke="#FFFFFF" stroke-opacity=".08"/>
+  <text x="600" y="78" text-anchor="middle" class="q">“Men code yozganda choyim sovib qoladi.”</text>
+  <text x="600" y="114" text-anchor="middle" class="a">— DIYORBEK PRIMQULOV</text>
+</svg>
