@@ -100,6 +100,6 @@ class DiyorbekPrimqulov extends FlutterDeveloper {
 
 <img src="https://komarev.com/ghpvc/?username=Primqulov&color=6C63FF&style=flat-square&label=Profil+ko'rishlar" alt="Profile views" />
 
-<sub>Oxirgi yangilanish: <!--UPDATED-->27.09.2026<!--/UPDATED--></sub>
+<sub>Oxirgi yangilanish: <!--UPDATED-->28.09.2026<!--/UPDATED--></sub>
 
 </div>
